@@ -78,8 +78,7 @@ int main()
    }
    printf("[+] Printing Key for Decrypting CipherText\n");
    for(int i=0;i<pcbresult_key;i++){
-    printf("0x%02x,", ((PUCHAR)heapmemory_key)[i]);
-
+       printf("0x%02x,", ((PUCHAR)heapmemory_key)[i]);
    }
    printf("\n");
    // Allocating memory for plaintext
