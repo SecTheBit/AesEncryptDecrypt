@@ -13,8 +13,7 @@ It's a shellcode encryptor/decryptor which can be used for bypassing various Ant
 5. Use the code, as a part of your malware
 
 ### Compatibility
-1. 
-```
+1. ```
 gcc (Rev10, Built by MSYS2 project) 12.2.0
 Copyright (C) 2022 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
