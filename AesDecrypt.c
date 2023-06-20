@@ -51,7 +51,7 @@ int main () {
    
    printf("[+] Printing decrypted text....\n");
    for (DWORD i = 0; i < pcbresult_decrypt_new; i++) {
-      printf("0x%02x ", ((PUCHAR)heapmemory_decryptedtext)[i]); 
+      printf("0x%02x,", ((PUCHAR)heapmemory_decryptedtext)[i]); 
    }
    
     if(phalgorithm)
