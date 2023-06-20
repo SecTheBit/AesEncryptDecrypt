@@ -81,6 +81,7 @@ int main()
     printf("0x%02x,", ((PUCHAR)heapmemory_key)[i]);
 
    }
+   printf("\n");
    // Allocating memory for plaintext
    heapmemory_plaintext=(PUCHAR)HeapAlloc(getprocessheap,HEAP_GENERATE_EXCEPTIONS,(DWORD)sizeof(plaintext));
 
@@ -101,7 +102,7 @@ int main()
        exit(0);        
    }
    
-   printf("pinrting Encrypted Text\n");
+   printf("[+] Printing Encrypted Text\n");
    for (DWORD i = 0; i < ciphertext_size; i++) {
     printf("0x%02x,", ((PUCHAR)heapmemory_ciphertext)[i]); 
    }
