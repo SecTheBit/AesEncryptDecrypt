@@ -29,7 +29,6 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ### Future Works
 
 - Use of Initialization Vector
-- Full working POC of the malware using this API
 
 ### References
 - This API was used by Emotet Malware for encrypting the Shellcode. Ref: https://www.vmray.com/cyber-security-blog/malware-analysis-spotlight-emotets-use-of-cryptography/ 
